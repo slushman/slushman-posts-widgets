@@ -52,9 +52,7 @@ You also have access to all the post metadata through a $custom variable, which 
 
 = How do I find the post IDs? =
 
-I recommend installing a plugin called "Simply Show IDs". It creates a custom column on the Posts admin table with the post ID in it. It also adds that column on Pages, Categories, Tags, and Users.
-
-
+This plugins adds a custom column to the Posts and Pages listings that displays the ID.
 
 
 
