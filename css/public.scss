@@ -1,0 +1,62 @@
+@import "../toolkit/css/mixins";
+@import "../toolkit/css/toolkit";
+
+.slushman_upcoming_posts {
+
+	.pair .upcoming_post {
+		@include column( 2 );
+	}
+
+	.pair .upcoming_words {
+		line-height: 1.25em;
+	}
+
+	.upcoming_post {
+		overflow: hidden;
+		font-weight: bold;
+		font-size: 1.6em;
+		text-align: center;
+		margin-bottom: .5em;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.upcoming_image {
+
+		img {
+			width: 100%;
+		}
+	}
+
+	.upcoming_words {
+		text-align: center;
+	}	
+}
+
+.slushman_featured_posts {
+	overflow: hidden;
+
+	.featured_posts {
+		@include column( 1 );
+	}
+
+	.widget-title {
+		font-size: 1.5em;
+		margin-bottom: 0.6em;
+	}
+
+	.featured_post {
+		margin-bottom: 1%;
+
+		@include column( 2 );
+
+		.featured_image {
+		}
+
+		.featured_pic {
+			width: 100%;
+		}
+	}
+}
